@@ -34,7 +34,7 @@ class @Mercury.Regions.Full extends Mercury.Region
       @document.mercuryEditing = true
       try
         @document.execCommand('styleWithCSS', false, false)
-        @document.execCommand('insertBROnReturn', false, true)
+        @document.execCommand('insertBROnReturn', false, false)
         @document.execCommand('enableInlineTableEditing', false, false)
         @document.execCommand('enableObjectResizing', false, false)
       catch e
